@@ -1,0 +1,21 @@
+
+node ('')
+{
+    stage('GIT')
+    {
+      git  'https://github.com/ravi5237/FirstRepo.git'
+    }
+
+    stage('TouchFile')
+    {
+        sh 'touch sample.txt'
+
+    }
+
+    stage()
+    {
+        sh 'echo "1 2 3 4 5" >> num.txt'
+
+    }
+
+}
