@@ -1,5 +1,5 @@
 
-node ('ubutu')
+node ('ubu')
 {
     stage('GIT')
     {
