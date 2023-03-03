@@ -1,4 +1,0 @@
-- repo: https://github.com/ravi5237/FirstRepo/blob/develop/.pre-commit-search-and-replace.yaml
-  rev: v1.0.5
-  hooks:
-  - id: search-and-replace
